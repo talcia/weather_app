@@ -1,0 +1,73 @@
+div.date {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+}
+
+div.date h1 {
+    margin: 50px 0 0 0;
+    font-size: 50px;
+}
+
+div.date h1 span {
+    font-size: 26px;
+    /* display: inline; */
+}
+
+div.date h2 {
+    font-size: 20px;
+}
+
+div.main {
+    position: absolute;
+    top: 35%;
+    left: 28%;
+}
+
+div.main h1 {
+    font-size: 60px;
+    margin: 20px 0 0;
+}
+
+div.main h2 {
+    font-size: 20px;
+    margin: 10px 10px 0;
+}
+
+div.main img {
+    position: absolute;
+    width: 15vh;
+    opacity: 0.8;
+    transform: translateX(-110%);
+    /* filter: grayscale(100%); */
+    /* opacity: 1; */
+}
+
+div.details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    position: absolute;
+    width: 40vw;
+    height: 35vh;
+    top: 20%;
+    left: 50%;
+    background-color: rgba(248, 248, 248, 0.144);
+}
+
+div.details p {
+    /* display: block; */
+    /* flex-basis: 20vw; */
+    font-weight: bold;
+    width: 11vw;
+    text-align: center;
+    font-size: 28px;
+    color: white;
+}
+
+div.details p span {
+    font-weight: normal;
+    font-size: 18px;
+    display: block;
+}

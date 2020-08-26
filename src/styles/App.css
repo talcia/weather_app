@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.app {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    overflow: hidden;
+    background-image: url(../images/mountains-3840x2160.jpg);
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: local; */
+}
+
+div.app h1.title {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 2px;
+    font-size: 36px;
+    opacity: 0.6;
+    color: white;
+    transition: 0.5s;
+}
+
+div.app h1.up {
+    top: 2%;
+}

@@ -1,0 +1,20 @@
+div.form form {
+    display: block;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    /* transform: translate(-50%, 0); */
+    transition: 0.5s;
+    width: 40vw;
+}
+
+div.form form input {
+    border: 0px solid black;
+    width: 40vw;
+    padding: 10px;
+    /* border-radius: 10%; */
+}
+
+div.form form input:focus {
+    outline: none;
+}

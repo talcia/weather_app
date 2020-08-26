@@ -1,0 +1,24 @@
+div.forecastsDetails {
+    position: absolute;
+    display: flex;
+    width: 80vw;
+}
+
+div.forecasts {
+    position: absolute;
+    top: 60%;
+    margin: 10px;
+    left: 10%;
+}
+
+div.forecasts span {
+    position: relative;
+    color: white;
+    border: none;
+    background-color: transparent;
+    /* background-color: rgba(255, 255, 255, 0.3); */
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+}

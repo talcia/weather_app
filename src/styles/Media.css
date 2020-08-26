@@ -1,0 +1,580 @@
+/* Smartphones (landscape) ----------- */
+@media only screen and (max-width: 640px) and (orientation: landscape) {
+    body div.app {
+        overflow: auto;
+    }
+    div.app h1.title {
+        top: 20%;
+        left: 50%;
+        letter-spacing: 2px;
+        font-size: 20px;
+    }
+
+    div.app h1.up {
+        font-size: 16px;
+        top: 1%;
+    }
+
+    body div.form form {
+        top: 40%;
+        left: 50%;
+    }
+
+    body div.form form input {
+        transform: translate(-50%, -50%);
+        width: 200px;
+        padding: 5px;
+    }
+
+    body div.date {
+        top: 10%;
+        left: 15%;
+    }
+
+    body div.date h1 {
+        margin: 50px 0 0 0;
+        font-size: 30px;
+    }
+
+    body div.date h1 span {
+        font-size: 18px;
+    }
+
+    body div.date h2 {
+        font-weight: normal;
+        font-size: 20px;
+    }
+
+    body div.date h3 {
+        font-weight: normal;
+        font-size: 18px;
+    }
+
+    body div.main {
+        top: 22%;
+        left: 68%;
+    }
+
+    body div.main h1 {
+        font-size: 36px;
+        margin: 10px 10px 0;
+    }
+
+    body div.main h2 {
+        font-size: 24px;
+        font-weight: normal;
+        margin: 5px 10px 0;
+    }
+
+    body div.main img {
+        width: 22vh;
+        transform: translate(-110%, 20%);
+    }
+
+    body div.details {
+        /* padding: 20px; */
+        flex-direction: row;
+        /* justify-content: space-between; */
+        width: 85vw;
+        height: 85vh;
+        top: 55%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    body div.details p {
+        width: 30vw;
+        height: 10vh;
+        font-size: 20px;
+        margin: 20px 0 0 0;
+    }
+
+    body div.details p span {
+        font-weight: normal;
+        font-size: 16px;
+        top: 10%;
+    }
+
+    body div.forecastsDetails {
+        left: 50%;
+        transform: translateX(-5%);
+        width: 90vw;
+        height: 100vh;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    body div.forecasts {
+        position: absolute;
+        top: 155%;
+        margin: 0;
+        flex-direction: column;
+        left: 4%;
+    }
+
+    body div.forecasts span {
+        font-size: 20px;
+        font-weight: bold;
+        padding: 10px 20px;
+    }
+
+    body div.forecast {
+        height: 150px;
+        width: 120px;
+        padding: 5px;
+        margin: 5px;
+    }
+    body div.forecast p {
+        margin: 5px;
+        font-size: 16px;
+    }
+
+    body div.forecast img {
+        margin: 10px 0;
+        height: 30px;
+    }
+
+    body div.error h2 {
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 22px;
+    }
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 420px) and (orientation: portrait) {
+    body div.app {
+        overflow: auto;
+    }
+    div.app h1.title {
+        top: 20%;
+        left: 50%;
+        letter-spacing: 2px;
+        font-size: 20px;
+    }
+
+    div.app h1.up {
+        font-size: 16px;
+        top: 2%;
+    }
+
+    body div.form form {
+        top: 33%;
+        left: 50%;
+    }
+
+    body div.form form input {
+        transform: translate(-50%, -50%);
+        width: 200px;
+        padding: 5px;
+    }
+
+    body div.date {
+        top: 8%;
+        left: 9%;
+    }
+
+    body div.date h1 {
+        margin: 50px 0 0 0;
+        font-size: 24px;
+    }
+
+    body div.date h1 span {
+        font-size: 14px;
+    }
+
+    body div.date h2 {
+        font-weight: normal;
+        font-size: 16px;
+    }
+
+    body div.date h3 {
+        font-weight: normal;
+        font-size: 14px;
+    }
+
+    body div.main {
+        top: 16%;
+        left: 68%;
+    }
+
+    body div.main h1 {
+        font-size: 24px;
+        margin: 10px 10px 0;
+    }
+
+    body div.main h2 {
+        font-size: 16px;
+        font-weight: normal;
+        margin: 5px 10px 0;
+    }
+
+    body div.main img {
+        width: 12vh;
+        transform: translate(-110%, 20%);
+    }
+
+    body div.details {
+        /* padding: 20px; */
+        flex-direction: row;
+        /* justify-content: space-between; */
+        width: 85vw;
+        height: 55vh;
+        top: 35%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    body div.details p {
+        width: 30vw;
+        height: 10vh;
+        font-size: 20px;
+        margin: 20px 0 0 0;
+    }
+
+    body div.details p span {
+        font-weight: normal;
+        font-size: 16px;
+        top: 10%;
+    }
+
+    body div.forecastsDetails {
+        left: 50%;
+        transform: translateX(-10%);
+        width: 90vw;
+        height: 100vh;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    body div.forecasts {
+        position: absolute;
+        top: 95%;
+        margin: 0;
+        flex-direction: column;
+        left: 4%;
+    }
+
+    body div.forecasts span {
+        font-size: 20px;
+        font-weight: bold;
+        padding: 10px 20px;
+    }
+
+    body div.forecast {
+        height: 150px;
+        width: 120px;
+        padding: 5px;
+        margin: 5px;
+    }
+    body div.forecast p {
+        margin: 5px;
+        font-size: 16px;
+    }
+
+    body div.forecast img {
+        margin: 10px 0;
+        height: 30px;
+    }
+
+    body div.error h2 {
+        top: 40%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 22px;
+    }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    body div.app {
+        overflow: auto;
+    }
+
+    div.app h1.title {
+        top: 20%;
+        left: 50%;
+        letter-spacing: 2px;
+        font-size: 44px;
+    }
+
+    div.app h1.up {
+        font-size: 30px;
+        top: 2%;
+    }
+
+    body div.form form {
+        top: 33%;
+        left: 50%;
+    }
+
+    body div.form form input {
+        transform: translate(-50%, -50%);
+        width: 400px;
+        font-size: 26px;
+        padding: 10px;
+    }
+
+    body div.date {
+        top: 15%;
+        left: 10%;
+    }
+
+    body div.date h1 {
+        margin: 50px 0 0 0;
+        font-size: 64px;
+    }
+
+    body div.date h1 span {
+        font-size: 34px;
+    }
+
+    body div.date h2 {
+        font-weight: normal;
+        font-size: 36px;
+    }
+
+    body div.date h3 {
+        font-weight: normal;
+        font-size: 34px;
+    }
+
+    body div.main {
+        top: 20%;
+        left: 70%;
+    }
+
+    body div.main h1 {
+        font-size: 58px;
+        margin: 10px 10px 0;
+    }
+
+    body div.main h2 {
+        font-size: 36px;
+        font-weight: normal;
+        margin: 5px 10px 0;
+    }
+
+    body div.main img {
+        width: 25vh;
+        transform: translate(-110%, -5%);
+    }
+
+    body div.details {
+        /* padding: 20px; */
+        flex-direction: row;
+        /* justify-content: space-between; */
+        width: 85vw;
+        height: 55vh;
+        top: 55%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    body div.details p {
+        width: 30vw;
+        height: 10vh;
+        font-size: 40px;
+        margin: 20px 0 0 0;
+    }
+
+    body div.details p span {
+        font-weight: normal;
+        font-size: 26px;
+        top: 10%;
+    }
+
+    body div.forecastsDetails {
+        left: 50%;
+        transform: translateX(-5%);
+        width: 90vw;
+        height: 100vh;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    body div.forecasts {
+        position: absolute;
+        top: 115%;
+        margin: 0;
+        flex-direction: column;
+        left: 4%;
+    }
+
+    body div.forecasts span {
+        font-size: 40px;
+        font-weight: bold;
+        padding: 10px 20px;
+    }
+
+    body div.forecast {
+        height: 270px;
+        width: 350px;
+        padding: 5px;
+        margin: 10px 20px;
+    }
+    body div.forecast p {
+        margin: 5px;
+        font-size: 32px;
+    }
+
+    body div.forecast img {
+        margin: 10px 0;
+        height: 130px;
+    }
+
+    body div.error h2 {
+        top: 45%;
+        left: 50%;
+        font-size: 46px;
+    }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    div.app h1.title {
+        top: 20%;
+        left: 50%;
+        letter-spacing: 2px;
+        font-size: 44px;
+    }
+
+    div.app h1.up {
+        font-size: 36px;
+        top: 2%;
+    }
+
+    body div.form form {
+        top: 33%;
+        left: 50%;
+    }
+
+    body div.form form input {
+        transform: translate(-50%, -50%);
+        width: 400px;
+        font-size: 26px;
+        padding: 10px;
+    }
+
+    body div.date {
+        top: 15%;
+        left: 10%;
+    }
+
+    body div.date h1 {
+        margin: 50px 0 0 0;
+        font-size: 54px;
+    }
+
+    body div.date h1 span {
+        font-size: 24px;
+    }
+
+    body div.date h2 {
+        font-weight: normal;
+        font-size: 26px;
+    }
+
+    body div.date h3 {
+        font-weight: normal;
+        font-size: 24px;
+    }
+
+    body div.main {
+        top: 20%;
+        left: 75%;
+    }
+
+    body div.main h1 {
+        font-size: 44px;
+        margin: 10px 10px 0;
+    }
+
+    body div.main h2 {
+        font-size: 26px;
+        font-weight: normal;
+        margin: 5px 10px 0;
+    }
+
+    body div.main img {
+        width: 20vh;
+        transform: translate(-110%, -5%);
+    }
+
+    body div.details {
+        /* padding: 20px; */
+        flex-direction: row;
+        /* justify-content: space-between; */
+        width: 85vw;
+        height: 55vh;
+        top: 45%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    body div.details p {
+        width: 30vw;
+        height: 10vh;
+        font-size: 40px;
+        margin: 20px 0 0 0;
+    }
+
+    body div.details p span {
+        font-weight: normal;
+        font-size: 26px;
+        top: 10%;
+    }
+
+    body div.forecastsDetails {
+        left: 50%;
+        transform: translateX(-10%);
+        width: 90vw;
+        height: 100vh;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    body div.forecasts {
+        position: absolute;
+        top: 105%;
+        margin: 0;
+        flex-direction: column;
+        left: 4%;
+    }
+
+    body div.forecasts span {
+        font-size: 40px;
+        font-weight: bold;
+        padding: 10px 20px;
+    }
+
+    body div.forecast {
+        height: 250px;
+        width: 320px;
+        padding: 5px;
+        margin: 5px;
+    }
+    body div.forecast p {
+        margin: 5px;
+        font-size: 28px;
+    }
+
+    body div.forecast img {
+        margin: 10px 0;
+        height: 120px;
+    }
+
+    body div.error h2 {
+        top: 45%;
+        left: 50%;
+        font-size: 46px;
+    }
+}
+
+/* Large screens ----------- */
+@media (min-width: 1824px) {
+    body div.app {
+        max-width: 50px;
+    }
+}
