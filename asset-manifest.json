@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/weather_app/static/css/main.5248cb35.chunk.css",
+    "main.js": "/weather_app/static/js/main.05a1a2b0.chunk.js",
+    "main.js.map": "/weather_app/static/js/main.05a1a2b0.chunk.js.map",
+    "runtime-main.js": "/weather_app/static/js/runtime-main.d4472664.js",
+    "runtime-main.js.map": "/weather_app/static/js/runtime-main.d4472664.js.map",
+    "static/js/2.839d080a.chunk.js": "/weather_app/static/js/2.839d080a.chunk.js",
+    "static/js/2.839d080a.chunk.js.map": "/weather_app/static/js/2.839d080a.chunk.js.map",
+    "index.html": "/weather_app/index.html",
+    "precache-manifest.ba9bbb60e38105ebf0454fe6fde457b3.js": "/weather_app/precache-manifest.ba9bbb60e38105ebf0454fe6fde457b3.js",
+    "service-worker.js": "/weather_app/service-worker.js",
+    "static/css/main.5248cb35.chunk.css.map": "/weather_app/static/css/main.5248cb35.chunk.css.map",
+    "static/js/2.839d080a.chunk.js.LICENSE.txt": "/weather_app/static/js/2.839d080a.chunk.js.LICENSE.txt",
+    "static/media/002-cloud-1.png": "/weather_app/static/media/002-cloud-1.fb7567a1.png",
+    "static/media/003-rainy.png": "/weather_app/static/media/003-rainy.b327616e.png",
+    "static/media/004-rainy-1.png": "/weather_app/static/media/004-rainy-1.e6217ecb.png",
+    "static/media/006-snowy.png": "/weather_app/static/media/006-snowy.68b96a79.png",
+    "static/media/011-cloudy.png": "/weather_app/static/media/011-cloudy.542c94b8.png",
+    "static/media/013-storm-2.png": "/weather_app/static/media/013-storm-2.a6fe3e27.png",
+    "static/media/021-night-2.png": "/weather_app/static/media/021-night-2.9dd3a945.png",
+    "static/media/022-night-3.png": "/weather_app/static/media/022-night-3.a29bb72e.png",
+    "static/media/038-cloudy-3.png": "/weather_app/static/media/038-cloudy-3.2c5926b1.png",
+    "static/media/039-sun.png": "/weather_app/static/media/039-sun.c2fac50a.png",
+    "static/media/App.css": "/weather_app/static/media/mountains-3840x2160.a3d8c3a6.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d4472664.js",
+    "static/js/2.839d080a.chunk.js",
+    "static/css/main.5248cb35.chunk.css",
+    "static/js/main.05a1a2b0.chunk.js"
+  ]
+}
