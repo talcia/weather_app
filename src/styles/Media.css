@@ -574,7 +574,4 @@
 
 /* Large screens ----------- */
 @media (min-width: 1824px) {
-    body div.app {
-        max-width: 50px;
-    }
 }
