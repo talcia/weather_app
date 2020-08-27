@@ -142,6 +142,150 @@
     }
 }
 
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width: 641px) and (max-width: 813px) and (orientation: landscape) {
+    body div.app {
+        overflow: auto;
+    }
+    div.app h1.title {
+        top: 20%;
+        left: 50%;
+        letter-spacing: 2px;
+        font-size: 20px;
+    }
+
+    div.app h1.up {
+        font-size: 14px;
+        top: 1%;
+    }
+
+    body div.form form {
+        top: 40%;
+        left: 50%;
+    }
+
+    body div.form form input {
+        transform: translate(-50%, -50%);
+        width: 200px;
+        padding: 5px;
+    }
+
+    body div.date {
+        top: 9%;
+        left: 15%;
+    }
+
+    body div.date h1 {
+        margin: 50px 0 0 0;
+        font-size: 34px;
+    }
+
+    body div.date h1 span {
+        font-size: 20px;
+    }
+
+    body div.date h2 {
+        font-weight: normal;
+        font-size: 24px;
+    }
+
+    body div.date h3 {
+        font-weight: normal;
+        font-size: 20px;
+    }
+
+    body div.main {
+        top: 22%;
+        left: 68%;
+    }
+
+    body div.main h1 {
+        font-size: 40px;
+        margin: 10px 10px 0;
+    }
+
+    body div.main h2 {
+        font-size: 28px;
+        font-weight: normal;
+        margin: 5px 10px 0;
+    }
+
+    body div.main img {
+        width: 26vh;
+        transform: translate(-110%, 20%);
+    }
+
+    body div.details {
+        /* padding: 20px; */
+        flex-direction: row;
+        /* justify-content: space-between; */
+        width: 85vw;
+        height: 85vh;
+        top: 65%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    body div.details p {
+        width: 30vw;
+        height: 10vh;
+        font-size: 24px;
+        margin: 20px 0 0 0;
+    }
+
+    body div.details p span {
+        font-weight: normal;
+        font-size: 16px;
+        top: 10%;
+    }
+
+    body div.forecastsDetails {
+        left: 50%;
+        transform: translateX(-5%);
+        width: 90vw;
+        height: 100vh;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    body div.forecasts {
+        position: absolute;
+        top: 165%;
+        margin: 0;
+        flex-direction: column;
+        left: 5%;
+    }
+
+    body div.forecasts span {
+        font-size: 20px;
+        font-weight: bold;
+        padding: 10px 20px;
+    }
+
+    body div.forecast {
+        height: 200px;
+        width: 150px;
+        padding: 5px;
+        margin: 10px;
+    }
+    body div.forecast p {
+        margin: 10px;
+        font-size: 20px;
+    }
+
+    body div.forecast img {
+        margin: 10px 0;
+        height: 45px;
+    }
+
+    body div.error h2 {
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 22px;
+    }
+}
+
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width: 420px) and (orientation: portrait) {
     body div.app {
@@ -287,7 +431,7 @@
 }
 
 /* iPads (landscape) ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-device-width: 814px) and (max-device-width: 1024px) and (orientation: landscape) {
     body div.app {
         overflow: auto;
     }
@@ -432,7 +576,7 @@
 }
 
 /* iPads (portrait) ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+@media only screen and (min-device-width: 814px) and (max-device-width: 1024px) and (orientation: portrait) {
     div.app h1.title {
         top: 20%;
         left: 50%;
